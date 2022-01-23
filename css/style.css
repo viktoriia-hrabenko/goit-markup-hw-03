@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -8,6 +14,31 @@
 body {
   font-family: var(--main-font);
   color: #212121;
+  
+ 
+}
+
+h1,
+h2,
+h3,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding:  0 15px;
+  align-items: center;
+  margin: 0 auto;
 }
 
 /* ############## POWTARZALNE STYLE ############## */
@@ -56,6 +87,25 @@ body {
 /* ############## POWTARZALNE STYLE ############## */
 
 /* ############## Sekcja HEADER ############## */
+
+.header,
+.navigation,
+.navigation-list {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  border: 1px solid #ECECEC;
+
+}
 
 .navigation-main,
 .secondary-main {
@@ -124,11 +174,21 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
+  display: block;
+  margin: 0 auto;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features-list-item {
+  flex-basis: calc(100% / 4 - 10px)
 }
 
 .features-name {
@@ -159,11 +219,29 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-list-item {
+  flex-basis: calc(100% / 3 - 10px)
+}
 /* ############## Koniec sekcji Czym się zajmujemy ############## */
 
 /* ############## Nasz zespól ############## */
 .team {
   background: #F5F4FA;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-list-item {
+  flex-basis: calc(100% / 4 - 10px)
 }
 
 .team-member {
@@ -210,6 +288,16 @@ body {
 /*##################### END FOOTER #################*/
 
 /*##################### PORTFOLIO #################*/
+.page {
+  background: #E5E5E5;
+}
+
+.buttons-list {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 174px;
+}
 
 .portfolio-btn {
   background: #f5f4fa;
@@ -222,6 +310,15 @@ body {
   letter-spacing: 0.03em;
 }
 
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 262px;
+}
+
+.projects-list-item {
+  flex-basis: calc(100% / 3 - 10px);
+}
 .project-name {
   font-style: normal;
   font-weight: bold;
