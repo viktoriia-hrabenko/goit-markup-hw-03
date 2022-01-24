@@ -35,7 +35,7 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 1600px;
   padding:  0 15px;
   align-items: center;
   margin: 0 auto;
@@ -90,18 +90,13 @@ img {
 
 .header,
 .navigation,
-.navigation-list {
-  display: inline-flex;
+.navigation-list,
+.container {
+  display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
   background: #FFFFFF;
   border: 1px solid #ECECEC;
 
@@ -115,6 +110,9 @@ img {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
+  margin-left: 215px;
+  width: 145px;
+  height: 31px;
 }
 
 .logo-1 {
@@ -127,6 +125,14 @@ img {
 
 .logo-2-footer {
   color: #ffffff;
+}
+
+.navigation-main {
+  margin-right: 93px;
+}
+ 
+.navigation-list-item:not(:last-child) {
+  margin-right: 46px;
 }
 
 .navigation-list-link {
@@ -148,14 +154,28 @@ img {
   color: var(--secondary-color);
 }
 
+
+.contact-link-phone {
+
+}
+
+.contact-link-mail {
+  margin-right: 50px;
+  margin-left: 371px;
+}
 /* ############## Koniec sekcji HEADER ############## */
 
 /* ############## Sekcja HERO   ############## */
 .main-header-container {
   background: #2F303A;
+  width: 1600px;
+  height: 600px;
+  padding: 200px 452px 280px;
 }
 
 .main-header {
+  width: 696px;
+  height: 120px;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -164,6 +184,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  
 }
 
 .btn {
@@ -180,17 +201,31 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
 }
 
 .features-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  margin-left: 215px;
+  margin-right: 215px;
+  width: 1170px;
+  height: 101px;
 }
 
 .features-list-item {
-  flex-basis: calc(100% / 4 - 10px)
+  width: 270px;
+  height: 101px;
+  flex-basis: calc(100% / 4 - 30px)
 }
-
+ 
+.features-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 .features-name {
   font-style: normal;
   font-weight: bold;
@@ -208,9 +243,16 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
+
+
 /* ############## Koniec sekcji HERO ############## */
 
 /* ############## Czym się zajmujemy ############## */
+.about {
+  width: 1170px;
+  height: 386px;
+  margin-left: 215px;
+}
 .secondary-header {
   font-style: normal;
   font-weight: bold;
@@ -218,6 +260,12 @@ img {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
+  
+}
+
+.secondary-header-container {
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .about-list {
@@ -226,22 +274,38 @@ img {
 }
 
 .about-list-item {
-  flex-basis: calc(100% / 3 - 10px)
+  flex-basis: calc(100% / 3 - 30px)
+}
+ 
+.about-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 /* ############## Koniec sekcji Czym się zajmujemy ############## */
 
 /* ############## Nasz zespól ############## */
 .team {
   background: #F5F4FA;
+  width: 1600px;
+  height: 648px;
+  margin-top: 94px;
 }
 
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  width: 1170px;
+  height: 368px;
+  margin-left: 215px;
 }
 
 .team-list-item {
-  flex-basis: calc(100% / 4 - 10px)
+  width: 270px;
+  height: 368px;
+  flex-basis: calc(100% / 4 - 30px)
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team-member {
