@@ -99,7 +99,8 @@ img {
 .header {
   background: #FFFFFF;
   border: 1px solid #ECECEC;
-
+  width: 1600px;
+  height: 80px;
 }
 
 .navigation-main,
@@ -188,7 +189,7 @@ img {
 }
 
 .btn {
-  background: var(--main-color);
+  background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-style: normal;
@@ -288,6 +289,7 @@ img {
   width: 1600px;
   height: 648px;
   margin-top: 94px;
+  
 }
 
 .team-list {
@@ -301,7 +303,10 @@ img {
 .team-list-item {
   width: 270px;
   height: 368px;
-  flex-basis: calc(100% / 4 - 30px)
+  flex-basis: calc(100% / 4 - 30px);
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-item:not(:last-child) {
@@ -314,6 +319,8 @@ img {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
+  margin-top: 30px; 
+  text-align: center;
 }
 
 .type-of-work-in-team {
@@ -323,21 +330,45 @@ img {
   line-height: 1.187;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  margin-top: 10px;
+  text-align: center;
 }
 /* ############## Koniec sekcji Nasz zespól ############## */
 
 /*##################### FOOTER #################*/
 .footer {
   background: #2F303A;
+  width: 1600px;
+  height: 252px;
+  
+}
+
+.secondary-main {
+  width: 145px;
+  height: 31px;
+  
+}
+
+.address-container {
+  margin-top: 60px;
+}
+
+.address-list {
+  margin-top: 20px;
+  margin-left: 215px;
 }
 
 .address-list-item {
-   font-style: normal;
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.address-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .address-contact-link-mail,
