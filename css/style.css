@@ -98,15 +98,14 @@ img {
   height: 80px;
 }
 
-.navigation-main,
-.secondary-main {
+.navigation-main {
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  margin-left: 15px;
+  margin-left: 215px;
   width: 145px;
   height: 31px;
 }
@@ -331,8 +330,15 @@ img {
 }
 
 .secondary-main {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
   width: 145px;
   height: 31px;
+  margin-left: 15px;
 }
 
 .address-container {
