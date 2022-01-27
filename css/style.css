@@ -108,6 +108,7 @@ img {
   margin-left: 215px;
   width: 145px;
   height: 31px;
+  margin-right: 93px;
 }
 
 .logo-1 {
@@ -122,9 +123,6 @@ img {
   color: #ffffff;
 }
 
-.navigation-main {
-  margin-right: 93px;
-}
 
 .navigation-list-item:not(:last-child) {
   margin-right: 46px;
@@ -160,9 +158,13 @@ img {
 
 /* ############## Sekcja HERO   ############## */
 .main-header-container {
-  background: #2f303a;
+  
   height: 600px;
-  padding: 200px 252px 280px;
+  padding-top: 200px;
+  padding-right: 252px;
+  padding-bottom: 280px;
+  padding-left: 250px;
+  background: #2f303a;
 }
 
 .main-header {
