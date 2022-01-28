@@ -123,7 +123,6 @@ img {
   color: #ffffff;
 }
 
-
 .navigation-list-item:not(:last-child) {
   margin-right: 46px;
 }
@@ -158,13 +157,14 @@ img {
 
 /* ############## Sekcja HERO   ############## */
 .main-header-container {
-  
+  width: 1200px;
   height: 600px;
   padding-top: 200px;
   padding-right: 252px;
   padding-bottom: 280px;
-  padding-left: 250px;
+  padding-left: 252px;
   background: #2f303a;
+  background-size: 100%;
 }
 
 .main-header {
@@ -276,7 +276,7 @@ img {
 /* ############## Nasz zespól ############## */
 .team {
   background: #f5f4fa;
-  /*width: 1200px;*/
+  background-size: 1200px;
   height: 648px;
   margin-top: 94px;
 }
@@ -284,9 +284,7 @@ img {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  /*width: 970px;*/
   height: 368px;
-  /*margin-left: 215px;*/
 }
 
 .team-list-item {
@@ -387,7 +385,6 @@ img {
 
 .page {
   /* background: #E5E5E5;*/
- 
 }
 
 .buttons-list {
