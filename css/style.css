@@ -157,13 +157,12 @@ img {
 
 /* ############## Sekcja HERO   ############## */
 .main-header-container {
-  width: 1200px;
   height: 600px;
   padding-top: 200px;
   padding-right: 252px;
   padding-bottom: 280px;
   padding-left: 252px;
-  background: #2f303a;
+  background-color: #2f303a;
   background-size: 100%;
 }
 
@@ -202,11 +201,8 @@ img {
 .features-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 94px;
-  margin-bottom: 94px;
-  margin-left: 115px;
-  margin-right: 115px;
-  /*width: 970px;*/
   height: 101px;
 }
 
@@ -220,6 +216,8 @@ img {
   margin-right: 30px;
 }
 .features-name {
+  width: 270px;
+  height: 16px;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -229,6 +227,8 @@ img {
 }
 
 .features-description {
+  width: 270px;
+  height: 75px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -244,6 +244,7 @@ img {
   /*width: 970px;*/
   height: 386px;
   margin-left: 15px;
+  margin-bottom: 94px;
 }
 .secondary-header {
   font-style: normal;
@@ -274,17 +275,23 @@ img {
 /* ############## Koniec sekcji Czym się zajmujemy ############## */
 
 /* ############## Nasz zespól ############## */
-.team {
-  background: #f5f4fa;
-  background-size: 1200px;
-  height: 648px;
+
+.secondary-header-team {
   margin-top: 94px;
+  margin-bottom: 50px;
+}
+.team {
+  background-color: #f5f4fa;
+  background-size: 100%;
+  height: 648px;
 }
 
 .team-list {
   display: flex;
   flex-wrap: wrap;
   height: 368px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .team-list-item {
