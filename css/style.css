@@ -94,7 +94,7 @@ img {
 
 .header {
   background: #ffffff;
-  /*border: 1px solid #ececec;*/
+  border-bottom: 1px solid #ececec;
   height: 80px;
 }
 
@@ -266,6 +266,10 @@ img {
   margin-bottom: 50px;
 }
 
+.work {
+  margin-bottom: 94px;
+}
+
 .about-list {
   display: flex;
   flex-wrap: wrap;
@@ -390,14 +394,6 @@ img {
 /*##################### END FOOTER #################*/
 
 /*##################### PORTFOLIO #################*/
-.hr {
-  width: 1200px;
-  height: 0px;
-  left: 0px;
-  top: 80px;
-  border: 1px solid #ececec;
-}
-
 .page {
   /* background: #E5E5E5;*/
 }
