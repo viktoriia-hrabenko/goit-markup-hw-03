@@ -465,7 +465,7 @@ img {
   width: 370px;
   height: 404px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  
   box-sizing: border-box;
   flex-basis: calc(100% / 3 - 30px);
   margin-left: -30px;
@@ -473,6 +473,10 @@ img {
 
 .projects-list-item:nth-child(-n + 6) {
   margin-bottom: 30px;
+}
+
+.card {
+  border: 1px solid #eeeeee;
 }
 
 .project-name {
